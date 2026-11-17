@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f5f5f7">
+  <title>Apple - Think Different</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <nav class="nav-container">
+      <a href="#" class="apple-logo" aria-label="Apple home">
+        <svg viewBox="0 0 24 24" width="20" height="22" fill="currentColor">
+          <path d="M17.05 12.54c-.02-2.22 1.81-3.29 1.89-3.34-1.04-1.52-2.65-1.73-3.22-1.75-1.37-.14-2.69.82-3.38.82-.7 0-1.77-.8-2.92-.78-1.5.02-2.9.88-3.67 2.23-1.57 2.73-.4 6.74 1.12 8.95.75 1.08 1.64 2.28 2.8 2.24 1.12-.05 1.55-.72 2.9-.72 1.35 0 1.74.72 2.92.7 1.2-.02 1.96-1.08 2.68-2.17.86-1.24 1.2-2.46 1.22-2.52-.03-.01-2.32-.89-2.34-3.66ZM14.84 5.99c.6-.73 1-1.74.89-2.75-.86.04-1.93.57-2.55 1.3-.56.65-1.05 1.67-.92 2.65.97.07 1.97-.49 2.58-1.2Z"/>
+        </svg>
+      </a>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#store">Store</a>
+        <a href="#mac">Mac</a>
+        <a href="#ipad">iPad</a>
+        <a href="#iphone">iPhone</a>
+        <a href="#watch">Watch</a>
+        <a href="#airpods">AirPods</a>
+        <a href="#tv">TV & Home</a>
+        <a href="#entertainment">Entertainment</a>
+        <a href="#support">Support</a>
+      </div>
+
+      <div class="nav-icons">
+        <button class="icon-btn" id="searchBtn" aria-label="Search">⌕</button>
+        <button class="icon-btn bag-btn" aria-label="Shopping bag">▢</button>
+        <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+      </div>
+    </nav>
+    <div class="search-box" id="searchBox">
+      <input type="text" id="searchInput" placeholder="Search apple.com">
+      <button id="closeSearch">✕</button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO 1 -->
+    <section class="hero hero-dark" id="store">
+      <div class="hero-content">
+        <p class="eyebrow">NEW GENERATION</p>
+        <h1>iPhone 17 Pro</h1>
+        <h2>Pro. Beyond limits.</h2>
+        <p class="hero-description">A whole new level of performance.</p>
+        <div class="hero-buttons">
+          <a href="#iphone" class="btn btn-blue">Learn more</a>
+          <a href="#iphone" class="btn btn-outline">Buy</a>
+        </div>
+      </div>
+      <img
+        class="hero-image"
+        src="https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=1800&q=90"
+        alt="Premium smartphone"
+      >
+    </section>
+
+    <!-- HERO 2 -->
+    <section class="hero hero-light" id="iphone">
+      <div class="hero-content">
+        <p class="eyebrow">NEW ARRIVAL</p>
+        <h1>iPhone Air</h1>
+        <h2>The thinnest iPhone ever.</h2>
+        <p class="hero-description">Beautifully light. Amazingly powerful.</p>
+        <div class="hero-buttons">
+          <a href="#ipad" class="btn btn-blue">Learn more</a>
+          <a href="#ipad" class="btn btn-outline-dark">Buy</a>
+        </div>
+      </div>
+      <img
+        class="hero-image"
+        src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=1800&q=90"
+        alt="Modern iPhone"
+      >
+    </section>
+
+    <!-- HERO 3 -->
+    <section class="hero hero-dark mac-hero" id="mac">
+      <div class="hero-content">
+        <p class="eyebrow">POWERFUL AND BEAUTIFUL</p>
+        <h1>MacBook Pro</h1>
+        <h2>Mind-blowing. Head-turning.</h2>
+        <p class="hero-description">Powerful performance for everything you do.</p>
+        <div class="hero-buttons">
+          <a href="#products" class="btn btn-blue">Learn more</a>
+          <a href="#products" class="btn btn-outline">Buy</a>
+        </div>
+      </div>
+      <img
+        class="hero-image"
+        src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=1800&q=90"
+        alt="MacBook laptop"
+      >
+    </section>
+
+    <!-- PRODUCT GRID -->
+    <section class="product-grid" id="products">
+
+      <article class="product-card ipad-card" id="ipad">
+        <div class="card-content">
+          <h2>iPad Pro</h2>
+          <p>Thinpossible.</p>
+          <div class="card-links">
+            <a href="#ipad">Learn more</a>
+            <a href="#ipad">Buy</a>
+          </div>
+        </div>
+        <img src="https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=1000&q=85" alt="iPad">
+      </article>
+
+      <article class="product-card watch-card" id="watch">
+        <div class="card-content">
+          <h2>WATCH</h2>
+          <span class="watch-series">SERIES 11</span>
+          <p>The ultimate way to watch your health.</p>
+          <div class="card-links">
+            <a href="#watch">Learn more</a>
+            <a href="#watch">Buy</a>
+          </div>
+        </div>
+        <img src="https://images.unsplash.com/photo-1544117519-31a4b719223d?w=1000&q=85" alt="Smart watch">
+      </article>
+
+      <article class="product-card airpods-card" id="airpods">
+        <div class="card-content">
+          <h2>AirPods Pro 3</h2>
+          <p>Sound. Reimagined.</p>
+          <div class="card-links">
+            <a href="#airpods">Learn more</a>
+            <a href="#airpods">Buy</a>
+          </div>
+        </div>
+        <img src="https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?w=1000&q=85" alt="Wireless headphones">
+      </article>
+
+      <article class="product-card vision-card">
+        <div class="card-content">
+          <h2>Apple Vision Pro</h2>
+          <p>Welcome to spatial computing.</p>
+          <div class="card-links">
+            <a href="#vision">Learn more</a>
+            <a href="#vision">Buy</a>
+          </div>
+        </div>
+        <img src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=1000&q=85" alt="Virtual reality headset">
+      </article>
+
+      <article class="product-card trade-card">
+        <div class="card-content">
+          <h2>Apple Trade In</h2>
+          <p>Upgrade and save. It's that easy.</p>
+          <div class="card-links">
+            <a href="#trade">See how it works</a>
+          </div>
+        </div>
+        <img src="https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?w=1000&q=85" alt="Apple devices">
+      </article>
+
+      <article class="product-card music-card" id="tv">
+        <div class="card-content">
+          <h2>Apple TV+</h2>
+          <p>Stories worth watching.</p>
+          <div class="card-links">
+            <a href="#entertainment">Stream now</a>
+          </div>
+        </div>
+        <img src="https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=1000&q=85" alt="Entertainment screen">
+      </article>
+
+    </section>
+
+    <!-- ENTERTAINMENT -->
+    <section class="entertainment" id="entertainment">
+      <div class="entertainment-content">
+        <span>APPLE ORIGINAL FILMS</span>
+        <h2>Entertainment.<br>Without limits.</h2>
+        <p>Discover amazing stories, films and series.</p>
+        <a href="#support" class="btn btn-blue">Explore Apple TV+</a>
+      </div>
+      <img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=1800&q=90" alt="Cinema experience">
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer id="support">
+    <div class="footer-inner">
+      <p class="footer-note">
+        This website is a personal front-end demonstration inspired by Apple's design.
+        Product names and trademarks belong to their respective owners.
+      </p>
+
+      <div class="footer-columns">
+        <div>
+          <h4>Shop and Learn</h4>
+          <a href="#store">Store</a>
+          <a href="#mac">Mac</a>
+          <a href="#ipad">iPad</a>
+          <a href="#iphone">iPhone</a>
+          <a href="#watch">Watch</a>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <a href="#entertainment">Apple TV+</a>
+          <a href="#entertainment">Apple Music</a>
+          <a href="#entertainment">Apple Fitness+</a>
+          <a href="#entertainment">Apple Arcade</a>
+        </div>
+        <div>
+          <h4>About Apple</h4>
+          <a href="#support">Newsroom</a>
+          <a href="#support">Careers</a>
+          <a href="#support">Investors</a>
+          <a href="#support">Contact</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>Copyright © 2026 Apple Clone. All rights reserved.</p>
+        <p>Designed with passion.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
